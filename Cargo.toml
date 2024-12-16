@@ -1,0 +1,16 @@
+[package]
+name = "code_cipher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+rayon = "1.5"
+thiserror = "1.0"
+sha3 = "0.10"
+hmac = "0.12"       # Ensure this is at least 0.12
+rand_chacha = "0.3"
+rand_distr = "0.4"
+hex = "0.3"
+huffman-compress = "0.4"    
+bitstream-io = "0.9"        
